@@ -1,0 +1,21 @@
+  /* ============================================================================ */
+  /* Vos styles à vous de façon globale */
+  
+  html {
+    font-size: 16px;
+    // changer cette valeur modifie proportionnellement tout le site grace à toute nos mesures exprimées en rem
+  }
+
+  /* une div dont on voudrait qu'elle mesure 500px est égal en unité relative à la font-size (rem) 500px / 16px = 31.25 rem*/
+
+
+  .container {
+    width: 31.25rem;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: lightgray;
+  }
+  nav ul {
+    display: flex;
+    gap: 2rem;
+  }
